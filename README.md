@@ -67,7 +67,13 @@ Para testar as rotas da aplicação, utilize uma ferramenta de cliente HTTP, com
 * Postman
 * Insomnia
 
-Essas ferramentas permitem simular requisições HTTP para testar os endpoints da API.
+Essas ferramentas permitem simular requisições HTTP para testar os endpoints da API. Segue abaixo os endpoints do projeto:
+
+POST /lista
+GET /lista
+GET /lista/:id
+PUT /lista/:id
+DELETE /lista/:id
 
 OBS: Lembrar de usar o token de autenticação das rotas.
 
