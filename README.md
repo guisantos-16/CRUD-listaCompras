@@ -42,15 +42,18 @@ Execute o arquivo `.sql` presente no projeto para criar a tabela no MySQL.
 
 ### 4. Configure o ambiente
 
-Renomeie o arquivo:
-
-.env.example
-
-para:
+Crie um arquivo:
 
 .env
 
-e preencha as variáveis necessárias.
+Copie e cole o esquema abaixo e preencha com as variáveis de ambiente:
+
+PORT=porta_aqui
+DB_HOST=host_aqui
+DB_USER=usuario_aqui
+DB_PASSWORD=senha_do_banco_aqui
+DB_DATABASE=nome_database_aqui
+TOKEN=token_autenticacao_aqui
 
 ### 5. Execute o servidor
 
